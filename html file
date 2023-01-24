@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Landing Page</title>
+    <link rel="stylesheet" href="/Assignment-3/Assignment3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div id="header" class="row">
+        <div>
+            <img id="logo" src="https://i.postimg.cc/R0HXTj7w/stunning-logo.png" alt="Stunning Logo" />
+        </div>
+        <nav id="topbar" class="row">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">About</div>
+            <div class="nav-item">Blog</div>
+            <div class="nav-item">Jobs</div>
+        </nav>
+        <div>
+            <button id="your_account_btn" class="primary">Your Account</button>
+        </div>
+    </div>
+
+    <section class="row">
+        <div id="main_content" class="column">
+            <h1>Stunning Workplace<span class="dot primary">&#9632;</span></h1>
+            <p>With stunning, remote teams you can organise projects, manage shifting priorities and get work done.</p>
+            <div class="row mb-2">
+                <button id="new_account_btn" class="mr-1">New Account</button>
+                <img src="https://i.postimg.cc/NFYJFprm/arrow-up.png" class="mr-1" alt="arrow-up" height="44px" />
+                <img src="https://i.postimg.cc/cHfkdV6d/arrow-down.png" alt="arrow-down" height="44px" />
+            </div>
+            <!-- card 1 -->
+					<div class="row card">
+						<img class="card-checkbox" src="https://i.postimg.cc/90px7ZGS/tick-gray.png" alt="tick-gray" />
+						<p class="card-text">Dmm design</p>
+						<img class="card-user-image" src="https://i.postimg.cc/28k9f9Yf/user-pink.png" alt="user-pink" />
+						<p class="card-date">20 Dec</p>
+						<span class="strip bg-color-pink"></span>
+					</div>
+                    <!-- card 2 -->
+					<div class="row card">
+						<img class="card-checkbox" src="https://i.postimg.cc/QNkYwGRb/tick-blue.png" alt="tick-blue" />
+						<p class="card-text">Blurr animation</p>
+						<img class="card-user-image" src="https://i.postimg.cc/7YKsP1PJ/user-orange.png" alt="user-orange" />
+						<p class="card-date">22 Dec</p>
+						<span class="strip bg-color-red"></span>
+					</div>
+					<!-- card 3 -->
+					<div class="row card">
+						<img class="card-checkbox" src="https://i.postimg.cc/90px7ZGS/tick-gray.png" alt="tick-gray" />
+						<p class="card-text">Illustrtion</p>
+						<img class="card-user-image" src="https://i.postimg.cc/SxjZnXjT/user-blue.png" alt="user-blue" />
+						<p class="card-date">26 Dec</p>
+						<span class="strip bg-color-green"></span>
+					</div>
+					<!-- card 4 -->
+					<div class="row card">
+						<img class="card-checkbox" src="https://i.postimg.cc/90px7ZGS/tick-gray.png" alt="tick-gray" />
+						<p class="card-text">Refunds</p>
+						<img class="card-user-image" src="https://i.postimg.cc/nh53BHDH/user-red.png" alt="user-red" />
+						<p class="card-date">28 Dec</p>
+						<span class="strip bg-color-yellow"></span>
+					</div>
+				</div>
+			</div>
+            <div>
+				<img src="https://i.postimg.cc/sXCKHwmq/landing-section-image.png" alt="Stunning Workplace Art" width="100%" />
+			</div>
+		</section>
+</body>
+</html>
